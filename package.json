@@ -1,0 +1,26 @@
+{
+  "name": "express-mongoose-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.ts",
+    "dev": "nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors.ts": "^1.0.20",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
+  }
+}
